@@ -1,0 +1,214 @@
+        /* --- компоненты ---*/
+        
+         :root {
+            --main-color: #212121;
+            --second-color: #757575;
+            --acent-color: #2196F3;
+        }
+        /*--- отменить стили по умолчанию ----*/
+        
+        .general-adress {
+            font-style: normal;
+        }
+        
+        .list {
+            list-style-type: none;
+        }
+        
+        .link {
+            text-decoration: none;
+            color: inherit;
+        }
+        /*--- шрифты ---*/
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: var(--main-color);
+        }
+        
+        .logo {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1, 19;
+            color: var(--acent-color);
+        }
+        /* ========= STUDIO PAGE ========= */
+        /* --- header --- */
+        
+        .logo-dark {
+            color: #000000;
+        }
+        
+        .nav {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+        }
+        
+        .nav:hover,
+        .nav:focus {
+            color: var(--acent-color);
+        }
+        
+        .upper-contacts {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            color: var(--second-color);
+        }
+        
+        .upper-contacts:hover,
+        .upper-contacts:focus {
+            color: var(--acent-color);
+        }
+        
+        .current {
+            color: var(--acent-color);
+        }
+        /* --- main ---*/
+        /* --- hero ---*/
+        
+        .hero {
+            background-color: #2F303A;
+        }
+        
+        .hero-h1 {
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+        
+        .hero-button {
+            background: var(--acent-color);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            font-family: Roboto;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.87;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+            cursor: pointer
+        }
+        
+        .hero-button:hover,
+        .hero-button:focus {
+            background: #188CE8;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+        }
+        /* --- features --- */
+        
+        .features-header {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        }
+        
+        .features-text {
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: var(--second-color);
+        }
+        /* --- we-do --- */
+        
+        .header-section {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.17;
+            text-align: center;
+            letter-spacing: 0.03em;
+        }
+        /* --- team--- */
+        
+        .card-header {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.19;
+            letter-spacing: 0.03em;
+        }
+        
+        .card-text {
+            font-size: 16px;
+            line-height: 1.19;
+            letter-spacing: 0.03em;
+            color: var(--second-color);
+        }
+        /* --- footer --- */
+        
+        .logo-light {
+            color: #ffffff;
+        }
+        
+        .footer {
+            background-color: #2F303A;
+        }
+        
+        .address {
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: #ffffff;
+        }
+        
+        .bottom-contacts {
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+        }
+        /* ========= PORTFOLIO PAGE ========= */
+        
+        .card-header-portfolio {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 2;
+            letter-spacing: 0.06em;
+        }
+        
+        .card-text-portfolio {
+            font-size: 16px;
+            line-height: 1.87;
+            letter-spacing: 0.03em;
+            color: var(--second-color);
+        }
+        
+        .filter-button {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.62;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: var(--main-color);
+            background-color: #F5F4FA;
+            border-radius: 4px;
+            cursor: pointer
+        }
+        
+        .filter-button:hover,
+        .filter-button:focus {
+            background-color: var(--acent-color);
+            color: #ffffff;
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+        }
+        
+        .address:focus,
+        .bottom-contacts:focus,
+        .address:hover,
+        .bottom-contacts:hover {
+            color: var(--acent-color);
+        }
