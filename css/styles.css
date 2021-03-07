@@ -139,6 +139,7 @@
             align-items: center;
             flex-direction: column;
             padding-bottom: 200px;
+            padding-top: 200px;
         }
         
         .hero-h1 {
@@ -152,7 +153,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-top: 200px;
             padding-bottom: 30px;
             width: 690px;
         }
@@ -187,12 +187,24 @@
         }
         /* --- features --- */
         
+        .features-list {
+            display: flex;
+            margin-top: 47px;
+            padding-top: 47px;
+            padding-bottom: 47px;
+        }
+        
+        .feature-item:not(:last-child) {
+            margin-right: 30px;
+        }
+        
         .features-header {
             font-weight: 700;
             font-size: 14px;
             line-height: 16px;
             letter-spacing: 0.03em;
             text-transform: uppercase;
+            margin-bottom: 10px;
         }
         
         .features-text {
@@ -203,12 +215,26 @@
         }
         /* --- we-do --- */
         
-        .header-section {
+        .wedo-section {
+            outline: solid teal;
+            padding-top: 47px;
+            padding-bottom: 47px;
+        }
+        
+        .headline-section {
             font-weight: 700;
             font-size: 36px;
             line-height: 1.17;
             text-align: center;
             letter-spacing: 0.03em;
+            outline: solid teal;
+            margin-bottom: 50px;
+        }
+        
+        .wedo-img {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
         /* --- team--- */
         
