@@ -13,19 +13,23 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="list">
-                <li><a class="logo link" lang="en" href="./index.html">Web<span class="logo-dark">Studio</span></a></li>
-                <li><a class="link current nav" href="./index.html">Студия</a></li>
-                <li><a class="link nav" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="link nav" href="">Контакты</a></li>
+    <header class="header">
+        <div class="container navigation">
+            <nav>
+                <ul class="list navigation">
+                    <li><a class="logo link" lang="en" href="./index.html">Web<span class="logo-dark">Studio</span></a></li>
+                    <li class="menu"><a class="link current nav" href="./index.html">Студия</a></li>
+                    <li class="menu"><a class="link nav" href="./portfolio.html">Портфолио</a></li>
+                    <li class="menu"><a class="link nav" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="list navigation contacts">
+                <li class="menu"><a class="link upper-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="menu"><a class="link upper-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             </ul>
-        </nav>
-        <ul class="list">
-            <li><a class="link upper-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            <li><a class="link upper-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        </ul>
+
+        </div>
+
     </header>
 
     <main>
@@ -36,7 +40,7 @@
         </section>
         <!--FEATURES-->
         <section class="features">
-            <h2 hidden>Наши преимущества</h2>
+            <h2 class="visually-hidden">Наши преимущества</h2>
             <ul class="list">
                 <li>
                     <h3 class="features-header">Внимание к деталям</h3>
@@ -65,7 +69,7 @@
                 <li><img src="./images/box_3.jpg" alt="человек смотрит в планшет с палитрой оттенков радуги" width="370" height="295"></li>
             </ul>
         </section>
-        <section>
+        <section class="team">
             <!--TEAM-->
             <h2 class="header-section">Наша команда</h2>
             <ul class="list">
