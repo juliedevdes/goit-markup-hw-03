@@ -134,6 +134,11 @@
         
         .hero {
             background-color: var(--background-color-dark);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: 200px;
         }
         
         .hero-h1 {
@@ -145,6 +150,11 @@
             text-transform: uppercase;
             color: var(--white-font);
             display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 200px;
+            padding-bottom: 30px;
+            width: 690px;
         }
         
         .hero-button {
@@ -162,6 +172,10 @@
             color: var(--white-font);
             cursor: pointer;
             border: 0px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-right: 32px;
+            padding-left: 32px;
         }
         
         .hero-button:hover,
